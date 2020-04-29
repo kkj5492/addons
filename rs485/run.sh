@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SHARE_DIR=/share
+SHARE_DIR=/share/rs485
 
 if [ ! -f $SHARE_DIR/rs485.py ]; then
 	mkdir $SHARE_DIR

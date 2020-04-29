@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CONFIG_FILE=/data/options.json
-CONFIG_RS485=/share/rs485.conf
+CONFIG_RS485=/share/rs485/rs485.conf
 
 CONFIG=`cat $CONFIG_FILE`
 

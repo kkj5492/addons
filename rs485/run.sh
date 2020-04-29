@@ -8,7 +8,7 @@ if [ ! -f $SHARE_DIR/rs485.py ]; then
 fi
 /makeconf.sh
 
-echo "[Info] Run Wallpad Controller"
+echo "[Info] Run rs485 to Mqtt"
 cd $SHARE_DIR
 python3 $SHARE_DIR/rs485.py
 
